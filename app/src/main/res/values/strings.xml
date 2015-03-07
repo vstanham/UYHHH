@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UYHHH</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">Editor #%d</string>
+    <string name="weather">3 day Forecast</string>
+    <string name="moto">A drinking group with a running problem</string>
+    <string name="traditionalSong">Here\'s to _____, he\'s true blue..\n
+    He\'s a hasher through and through,\n
+    He\'s a pisspot so they say.\n
+    Tried to get to heaven,\n
+    But he went the other way.\n
+    Drinking, down, down, down, down, \n</string>
+    <string name="followusContact">"Follow us :</string>
+
+</resources>

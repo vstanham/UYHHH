@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tinoper/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-41115bbee3425a3063435fd8bdd929459e34f1bf.jar" />
+    </item>
+    <item
+        jar="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-777d31fc57e189d81976c51920f2ebb1a896e9e5.jar" />
+    </item>
+    <item
+        jar="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0dcc55e70f7ebf7238fe2ec53f662eb378ab2668">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4a41bd40b13b739a4252abbaed276daa23cba167.jar" />
+    </item>
+    <item
+        jar="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c2071dcaf7a008c3b01a6381a33be55396bab09">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/classes-9dd60610d9a5c2dd612d5ed2f121aece4873d928.jar" />
+    </item>
+    <item
+        jar="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/classes-17f1d554e2f0be0478dad16473fdbc22be8d36ca.jar" />
+    </item>
+    <item
+        jar="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/tinoper/AndroidStudioProjects/UYHHH/app/build/intermediates/pre-dexed/debug/classes-a54b3f02cc54d0cb7355f55237872a3b5fefa480.jar" />
+    </item>
+
+</items>
