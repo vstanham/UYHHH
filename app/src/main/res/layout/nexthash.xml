@@ -6,79 +6,139 @@
     android:gravity="center"
     android:background="@android:color/transparent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="#116"
-        android:id="@+id/tvNroHash"
-        android:textSize="80sp"
-        android:textStyle="bold"
-        android:textColor="@color/uyhhhFontColor"
-        android:typeface="normal"
-        android:layout_gravity="right" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plaza de la bandera"
-        android:id="@+id/tvLocation"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15sp"
-        android:textColor="@color/uyhhhFontColor"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="HA"
+                android:id="@+id/tvHA"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/uyhhhHASHtext"
+                android:typeface="normal"
+                android:layout_marginBottom="0dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SH"
+                android:id="@+id/tvSH"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="@color/uyhhhHASHtext"
+                android:typeface="normal"
+                android:layout_marginTop="0dp"
+                />
+         </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="13 de enero 2015"
-        android:id="@+id/tvDate"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15sp"
-        android:textColor="@color/uyhhhFontColor"/>
 
-    <TextView
-        android:id="@+id/item_subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Page:"
-        android:visibility="invisible" />
 
-    <TextView
-        android:id="@+id/item_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="20hs"
-        android:id="@+id/tvTime"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15sp"
-        android:textColor="@color/uyhhhFontColor"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Half a meter man"
-        android:id="@+id/tvHares"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15sp"
-        android:textColor="@color/uyhhhFontColor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="#116"
+            android:id="@+id/tvNroHash"
+            android:textSize="100sp"
+            android:textStyle="bold"
+            android:textColor="@color/uyhhhFontColor"
+            android:typeface="normal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="50sp"
+            android:layout_margin="0dp" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plaza de la bandera"
+                android:id="@+id/tvLocation"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/uyhhhFontColor"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 de enero 2015"
+                android:id="@+id/tvDate"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/uyhhhFontColor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20hs"
+                android:id="@+id/tvTime"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/uyhhhFontColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Half a meter man"
+                android:id="@+id/tvHares"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textColor="@color/uyhhhFontColor"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/item_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Page:"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
             android:id="@+id/tvNumberDaysToGo"
-
+            android:layout_gravity="center_horizontal"
             android:textSize="30sp"
             android:textColor="@color/uyhhhFontColor"/>
         <TextView
@@ -86,8 +146,10 @@
             android:layout_height="wrap_content"
             android:text=" days to go!"
             android:id="@+id/tvDaysToGo"
-
             android:textSize="20sp"
-            android:textColor="@color/uyhhhFontColor"/>
+            android:textColor="@color/uyhhhFontColor"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
+
+
 </LinearLayout>

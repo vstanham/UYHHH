@@ -12,13 +12,14 @@
         android:background="@android:color/transparent">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
             android:id="@+id/imageView"
             android:src="@drawable/ic_logouyhhh"
             android:layout_alignTop="@+id/toolbar"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="61dp" />
+            android:layout_gravity="center"
+             />
 
     </android.support.v7.widget.Toolbar>
 
