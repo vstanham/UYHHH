@@ -3,4 +3,5 @@
     <color name="uyhhhBackgroundColor">#ff0000</color>
     <color name="uyhhhFontColor">#ffffff</color>
     <color name="uyhhhHASHtext">#968283</color>
+    <color name="uyhhhLineSeparator">#ea0000</color>
 </resources>
