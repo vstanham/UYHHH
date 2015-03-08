@@ -17,6 +17,7 @@ package uyhhh.rit.com.uyhhh;
 import android.app.Fragment;
 import android.content.Context;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,6 +55,18 @@ public class EditorFragment extends Fragment {
     switch (position){
         case 0:
             result = inflater.inflate(R.layout.nexthash, container, false);
+            //TODO leer datos de la bd local del movil y cargarla en variables
+            //TODO mostrar los datos
+            TextView textLocation = (TextView) result.findViewById(R.id.tvLocation);
+            textLocation.setTypeface(null, Typeface.BOLD);
+            TextView textDate = (TextView) result.findViewById(R.id.tvDate);
+            textDate.setTypeface(null, Typeface.BOLD);
+            TextView textTime = (TextView) result.findViewById(R.id.tvTime);
+            textTime.setTypeface(null, Typeface.BOLD);
+            TextView textHare = (TextView) result.findViewById(R.id.tvHares);
+            textHare.setTypeface(null, Typeface.BOLD);
+
+            //TODO Si faltan dos dias o menos mostrar el days to go
             break;
         case 1:
             result = inflater.inflate(R.layout.weather, container, false);
